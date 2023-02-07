@@ -1,5 +1,6 @@
 {
-  "private": true,
+  "name": "portfolio",
+	"private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
