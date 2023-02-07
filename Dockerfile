@@ -1,7 +1,5 @@
 FROM node:14.18-alpine3.12
 
-ARG BASE_URL_API
-
 # create destination directory
 RUN mkdir -p /usr/src/nuxt-app
 WORKDIR /usr/src/nuxt-app
