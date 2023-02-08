@@ -1,8 +1,10 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div>
+  <TheHeader />
+  <main class="wrapper pt-[100px]">
     <slot />
-  </div>
+  </main>
+  <TheFooter />
 </template>
 
 <script setup></script>

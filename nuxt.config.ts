@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import eslintPlugin from 'vite-plugin-eslint';
+// import eslintPlugin from 'vite-plugin-eslint';
 export default defineNuxtConfig({
 	app: {
 		head: {
@@ -25,7 +25,7 @@ export default defineNuxtConfig({
 				lang: 'id-ID',
 			},
 			bodyAttrs: {
-				class: 'dark',
+				class: 'dark:bg-gray-800',
 			},
 		},
 		pageTransition: { name: 'page', mode: 'out-in' },
@@ -48,7 +48,7 @@ export default defineNuxtConfig({
 	},
 	vite: {
     plugins: [
-      eslintPlugin()
+      // eslintPlugin(),
     ]
   },
 });

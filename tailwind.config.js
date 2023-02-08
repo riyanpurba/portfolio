@@ -11,16 +11,20 @@ module.exports = {
 	darkMode: 'class',
 	theme: {
 		extend: {},
-		colors: {
-			primary: 'rgb(var(--color-primary) / <alpha-value>)',
-			text: 'rgb(var(--color-text) / <alpha-value>)',
-			light: 'rgb(var(--color-light) / <alpha-value>)',
-			success: 'rgb(var(--color-success) / <alpha-value>)',
-			info: 'rgb(var(--color-info) / <alpha-value>)',
-			warn: 'rgb(var(--color-warn) / <alpha-value>)',
-			error: 'rgb(var(--color-error) / <alpha-value>)',
-			transparent: 'transparent',
-			current: 'currentColor',
+		container: {
+			// you can configure the container to be centered
+			center: true,
+
+			// or have default horizontal padding
+			padding: '1rem',
+
+			screens: {
+        xs: '414px', // => @media (min-width: 414px) { ... }
+        sm: '640px', // => @media (min-width: 640px) { ... }
+        md: '768px', // => @media (min-width: 768px) { ... }
+        lg: '1024px', // => @media (min-width: 1024px) { ... }
+        xl: '1280px' // => @media (min-width: 1280px) { ... }
+      }
 		},
 	},
 	plugins: [],
