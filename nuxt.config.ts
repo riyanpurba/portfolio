@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import eslintPlugin from 'vite-plugin-eslint';
 export default defineNuxtConfig({
 	app: {
 		head: {
@@ -29,5 +30,25 @@ export default defineNuxtConfig({
 		},
 		pageTransition: { name: 'page', mode: 'out-in' },
 	},
-	ssr: false
-})
+	ssr: false,
+	modules: ['@nuxtjs/color-mode'],
+	colorMode: {
+		classSuffix: '',
+		preference: 'system',
+		fallback: 'dark',
+	},
+	css: ['~/assets/css/main.css', '~/assets/scss/main.scss'],
+	postcss: {
+		plugins: {
+			'postcss-import': {},
+			'tailwindcss/nesting': {},
+			tailwindcss: {},
+			autoprefixer: {},
+		},
+	},
+	vite: {
+    plugins: [
+      eslintPlugin()
+    ]
+  },
+});
