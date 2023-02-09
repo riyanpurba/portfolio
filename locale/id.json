@@ -2,5 +2,6 @@
   "hello": "Halo, {name}!",
   "language": "ID",
 	"name": "Riyan Purba",
-	"position": "Senior Frontend Developer"
+	"position": "Senior Frontend Developer",
+	"about": "Sebagai lulusan SMK jurusan Rekayasa Perangkat Lunak dan mahasiswa S1 di Universitas Budi Luhur, saya memiliki pengalaman kerja sekitar 5 tahun sebagai programmer dan saat ini bekerja sebagai senior frontend developer di sebuah perusahaan. Saya memfokuskan diri pada pengembangan web dan memiliki keahlian dalam menggunakan NuxtJS versi 2 dan 3, serta terbiasa menggunakan berbagai bahasa pemrograman seperti HTML, CSS, Javascript, PHP, ReactJS, VueJS, CodeIgniter, Laravel, Redux, MySql, Sql Server, dan Postgresql. Saya berdedikasi untuk menyediakan solusi pengembangan web yang berkualitas tinggi dan memastikan hasil kerja yang efisien dan efektif. Saya percaya bahwa kerja tim dan kerjasama yang baik adalah kunci untuk mencapai hasil terbaik."
 }

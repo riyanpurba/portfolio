@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <SectionIntroduction />
-  <div class="container" />
+  <SectionAbout />
 </template>
 
 <script setup></script>

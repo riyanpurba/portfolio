@@ -2,5 +2,6 @@
   "hello": "Hello, {name}!",
   "language": "EN",
 	"name": "Riyan Purba",
-	"position": "Senior Frontend Developer"
+	"position": "Senior Frontend Developer",
+	"about": "As a SMK graduate majoring in Software Engineering and an undergraduate student at Budi Luhur University, I have about 5 years of work experience as a programmer and currently work as a senior frontend developer in a company. I focus on web development and have expertise in using NuxtJS versions 2 and 3, and am familiar with various programming languages ​​such as HTML, CSS, Javascript, PHP, ReactJS, VueJS, CodeIgniter, Laravel, Redux, MySql, Sql Server, and Postgresql. I am dedicated to providing high quality web development solutions and ensuring efficient and effective results. I believe that teamwork and good cooperation are the keys to achieving the best results."
 }
