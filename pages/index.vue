@@ -1,10 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="container">
-    <h1 class="text-3xl font-bold underline">
-      <h1>{{ $t('hello', { name: 'vue-i18n' }) }}</h1>
-    </h1>
-  </div>
+  <SectionIntroduction />
+  <div class="container" />
 </template>
 
 <script setup></script>

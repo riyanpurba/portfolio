@@ -1,4 +1,6 @@
 {
   "hello": "Halo, {name}!",
-  "language": "ID"
+  "language": "ID",
+	"name": "Riyan Purba",
+	"position": "Senior Frontend Developer"
 }

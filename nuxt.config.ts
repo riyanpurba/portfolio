@@ -4,7 +4,7 @@ export default defineNuxtConfig({
 	app: {
 		head: {
 			charset: 'utf-8',
-			title: 'Riyan Purba',
+			title: 'Portfolio Riyan Purba - Solusi Terbaik untuk Pengembangan Website Anda',
 			meta: [
 				{ name: 'theme-color', content: '#c92127' },
 				{
@@ -14,7 +14,7 @@ export default defineNuxtConfig({
 				{ name: 'robots', content: 'index, follow,max-image-preview:large' },
 				{
 					name: 'description',
-					content: 'Riyan Purba',
+					content: 'Portfolio Riyan Purba menampilkan karya-karya terbaik dalam web development. Temukan solusi kreatif untuk bisnis Anda.',
 				},
 				{
 					name: 'keywords',
@@ -25,7 +25,7 @@ export default defineNuxtConfig({
 				lang: 'id-ID',
 			},
 			bodyAttrs: {
-				class: 'dark:bg-gray-800',
+				class: 'dark:bg-[#111215]',
 			},
 		},
 		pageTransition: { name: 'page', mode: 'out-in' },

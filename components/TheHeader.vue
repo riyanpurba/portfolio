@@ -7,7 +7,7 @@ const handleChangeLanguage = () => {
 </script>
 
 <template>
-  <header class="fixed w-full h-[100px] dark:bg-gray-700">
+  <header class="fixed w-full h-[100px]">
     <nav class="py-4">
       <div class="container">
         <div class="relative flex items-center justify-between">

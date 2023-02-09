@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <TheHeader />
-  <main class="wrapper pt-[100px]">
+  <main class="wrapper">
     <slot />
   </main>
   <TheFooter />
